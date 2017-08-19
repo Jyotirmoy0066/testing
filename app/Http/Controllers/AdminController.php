@@ -77,10 +77,12 @@ use Illuminate\Http\Request;
         return view('manage_restaurant',$data);   
     }
     
-    public function dashboard()
-    {
-        $data['page'] = "dashboard";
-        return view('dashboard',$data);      
-    }
+    // public function dashboard()
+    // {
+    //     $data['page'] = "dashboard";
+    //     return view('dashboard',$data);      
+    // }
+
+
 
  }

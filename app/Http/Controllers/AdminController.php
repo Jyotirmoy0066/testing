@@ -83,4 +83,9 @@ use Illuminate\Http\Request;
         return view('dashboard',$data);      
     }
 
+    public function newfunc()
+    {
+        //something
+    }
+
  }
